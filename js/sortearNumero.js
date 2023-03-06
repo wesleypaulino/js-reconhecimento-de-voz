@@ -6,8 +6,6 @@ function getRandom() {
     return parseInt( (Math.random() * maiorValor + 1 ) )
   }
 
-  console.log(numeroRandom)
-
 const elementoMenorValor = document.getElementById("menor-valor")
 elementoMenorValor.innerHTML = menorValor
 
