@@ -1,6 +1,6 @@
-const numeroRandom = getRandom()
 const menorValor = 1
 const maiorValor = 10
+const numeroRandom = getRandom()
 
 function getRandom() {
     return parseInt( (Math.random() * maiorValor + 1 ) )
