@@ -40,7 +40,8 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero){
 }
 
 document.body.addEventListener('click', e => {
+	console.log(e);
     if (e.target.id == 'jogar-novamente') {
-        window.location.reload()
+		window.location.reload()
     }
 })
